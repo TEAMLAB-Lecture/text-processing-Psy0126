@@ -67,5 +67,10 @@ def no_vowels(input_string):
     new_str = new_str.replace('i', '')
     new_str = new_str.replace('o', '')
     new_str = new_str.replace('u', '')
+    new_str = new_str.replace('A', '')
+    new_str = new_str.replace('E', '')
+    new_str = new_str.replace('I', '')
+    new_str = new_str.replace('O', '')
+    new_str = new_str.replace('U', '')
     no_vowel_string = new_str
     return no_vowel_string
